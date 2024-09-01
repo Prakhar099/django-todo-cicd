@@ -1,0 +1,53 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+Error: You don't have permission to access that port.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+August 25, 2024 - 16:48:23
+Django version 4.2.11, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+[25/Aug/2024 16:48:25] "POST /todos/add/ HTTP/1.1" 302 0
+[25/Aug/2024 16:48:26] "GET /todos/ HTTP/1.1" 200 4091
+[25/Aug/2024 16:48:26] "GET /static/css/style.css HTTP/1.1" 304 0
+[25/Aug/2024 16:48:33] "GET /todos/ HTTP/1.1" 200 4091
+[25/Aug/2024 23:08:57] code 400, message Bad request version ('À\x13À')
+[25/Aug/2024 23:08:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Aug/2024 23:08:57] code 400, message Bad request version ('À(À$À\x14À')
+[25/Aug/2024 23:08:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Aug/2024 10:28:09] "GET / HTTP/1.1" 302 0
+[26/Aug/2024 10:28:18] "GET / HTTP/1.1" 302 0
+[26/Aug/2024 10:28:19] "GET /todos HTTP/1.1" 301 0
+[26/Aug/2024 10:28:19] "GET /todos/ HTTP/1.1" 200 4091
+Not Found: /favicon.ico
+[26/Aug/2024 10:28:24] "GET /favicon.ico HTTP/1.1" 404 2574
+Not Found: /http:/api.ipify.org/
+[26/Aug/2024 10:28:29] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 1818
+Not Found: /www.shadowserver.org:443
+[26/Aug/2024 10:28:34] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 1827
+[26/Aug/2024 12:09:09] code 400, message Bad request version ('À\x14À')
+[26/Aug/2024 12:09:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Aug/2024 14:33:53] code 400, message Bad request version ('À\x14À')
+[26/Aug/2024 14:33:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Aug/2024 15:01:16,171] - Broken pipe from ('45.33.109.10', 45199)
+[26/Aug/2024 15:01:16] "GET / HTTP/1.1" 302 0
+[26/Aug/2024 15:01:16,796] - Broken pipe from ('45.33.109.10', 45200)
+[26/Aug/2024 15:22:26] "GET /todos/ HTTP/1.1" 200 4091
+[26/Aug/2024 15:22:26] "GET /static/css/style.css HTTP/1.1" 304 0
